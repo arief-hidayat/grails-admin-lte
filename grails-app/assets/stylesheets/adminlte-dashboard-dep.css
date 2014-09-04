@@ -1,0 +1,16 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS file within this directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the top of the
+* compiled file, but it's generally better to create a new file per style scope.
+*
+*= require adminlte-core.css
+*= require morris/morris.css
+*= require jvectormap/jquery-jvectormap-1.2.2.css
+*= require datepicker/datepicker3.css
+*= require daterangepicker/daterangepicker-bs3.css
+*= require bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css
+*/

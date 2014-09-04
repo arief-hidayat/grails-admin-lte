@@ -40,6 +40,9 @@ grails.project.dependency.resolution = {
     }
 
     plugins {
+        build(":tomcat:7.0.54") {
+            export = false
+        }
         runtime (":jquery:1.11.1")
         compile ":asset-pipeline:1.9.9"
         compile ":less-asset-pipeline:1.10.0"

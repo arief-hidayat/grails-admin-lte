@@ -5,7 +5,10 @@ class GrailsAdminLteGrailsPlugin {
     def grailsVersion = "2.3 > *"
     // resources that are excluded from plugin packaging
     def pluginExcludes = [
-            "grails-app/views/error.gsp"
+            "grails-app/views/error.gsp",
+            "grails-app/views/index.gsp",
+            "grails-app/views/demo/**",
+            "grails-app/controllers/grails/admin/lte/**"
     ]
 
     // TODO Fill in these fields
