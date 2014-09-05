@@ -6,7 +6,6 @@
 // to create separate JavaScript files as needed.
 //
 //= require adminlte-dashboard-dep.js
-//= require AdminLTE/app.js
 //= require AdminLTE/dashboard.js
 //= require AdminLTE/demo.js
 //= require_self
