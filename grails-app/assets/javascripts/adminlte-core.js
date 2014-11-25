@@ -10,3 +10,21 @@
 //= require jquery-ui-1.10.3.min.js
 //= require bootstrap-3.2.0.min.js
 //= require AdminLTE/app.js
+//= require jquery.cookie-1.4.1.min.js
+//= require_self
+$(document).ready(function(){
+    var $sideMenu = $(".sidebar .treeview");
+    $sideMenu.each(function(index){
+        if($.cookie('imms.sel.menu:'+(index+1))) {
+            $(this).find("a:eq(0)").click();
+        }
+    });
+    $(".sidebar .treeview").on("click", function(){
+        var $this = $(this);
+        if($this.hasClass("active")) {
+            $.cookie('imms.sel.menu:'+$this.index(), true, { path: '/' });
+        } else {
+            $.removeCookie('imms.sel.menu:'+$this.index(), { path: '/' });
+        }
+    });
+});
