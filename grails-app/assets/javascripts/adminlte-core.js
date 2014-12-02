@@ -6,7 +6,7 @@
 // to create separate JavaScript files as needed.
 //
 // ... jquery${grails.util.Environment.current == grails.util.Environment.PRODUCTION ? '.min' : ''}.js
-//= require jquery/jquery-${org.codehaus.groovy.grails.plugins.jquery.JQueryConfig.SHIPPED_VERSION}.min
+//= require /lib/jquery-1.11.1.min
 //= require jquery-ui-1.10.3.min.js
 //= require bootstrap-3.2.0.min.js
 //= require AdminLTE/app.js
