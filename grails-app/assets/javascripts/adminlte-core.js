@@ -8,7 +8,7 @@
 // ... jquery${grails.util.Environment.current == grails.util.Environment.PRODUCTION ? '.min' : ''}.js
 //= require /lib/jquery-1.11.1.min
 //= require jquery-ui-1.10.3.min.js
-//= require bootstrap-3.2.0.min.js
+//= require /lib/bootstrap-3.2.0.min.js
 //= require AdminLTE/app.js
 //= require jquery.cookie-1.4.1.min.js
 //= require_self
