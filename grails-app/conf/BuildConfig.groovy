@@ -45,7 +45,6 @@ grails.project.dependency.resolution = {
         }
         runtime (":jquery:1.11.1")
         compile ":asset-pipeline:1.9.9"
-        compile ":less-asset-pipeline:1.10.0"
 
         build(":release:3.0.1",
                 ":rest-client-builder:2.0.3") {
