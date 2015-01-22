@@ -16,6 +16,8 @@
           <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
           <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
         <![endif]-->
+    <link rel="stylesheet" type="text/css"
+          href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic|Open+Sans:300,400,300italic,700normal,700italic,400italic|Kaushan+Script"/>
     <g:layoutHead/>
 </head>
 <body class="skin-blue">
