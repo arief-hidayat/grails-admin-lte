@@ -12,11 +12,3 @@
 *= require ionicons.min.css
 *= require AdminLTE.css
 */
-
-#list-section .buttons .btn {
-    margin-top: 2px;
-    margin-bottom: 2px;
-}
-.col-centered{
-    text-align: center;
-}
